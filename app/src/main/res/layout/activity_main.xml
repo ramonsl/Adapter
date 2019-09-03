@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/Exemplo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@color/category_phrases"
+        android:text="ListView" />
+
+
+    <TextView
+        android:id="@+id/txtList"
+        style="@style/CategoryStyle"
+        android:background="@color/category_numbers"
+        android:text="Lista Simples" />
+
+    <TextView
+        android:id="@+id/txtCuston"
+        style="@style/CategoryStyle"
+        android:background="@color/category_family"
+        android:text="Lista Com Adapters Customizadas" />
+
+    <TextView
+        android:id="@+id/txtGrid"
+        style="@style/CategoryStyle"
+        android:background="@color/category_colors"
+        android:text="Grid" />
+
+
+
+
+
+</LinearLayout>
