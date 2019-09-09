@@ -23,10 +23,10 @@ public class CarrosAdapter extends ArrayAdapter {
         }
         Carros current = (Carros) getItem(position);
             TextView nome = (TextView) listItemView.findViewById(R.id.txtNome);
-            TextView motor = (TextView) listItemView.findViewById(R.id.txtMotor);
+            TextView ano = (TextView) listItemView.findViewById(R.id.txtAno);
             TextView marca = (TextView) listItemView.findViewById(R.id.txtMarca);
             nome.setText(current.getNome().toString());
-            motor.setText(current.getMotor().toString());
+            ano.setText(current.getAno().toString());
             marca.setText(current.getMarca().toString());
 
             return  listItemView;

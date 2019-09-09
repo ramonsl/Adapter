@@ -36,11 +36,11 @@
             android:text="Marca" />
 
         <TextView
-            android:id="@+id/txtMotor"
+            android:id="@+id/txtAno"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Motor"/>
+            android:text="@android:string/status_bar_notification_info_overflow" />
 
     </LinearLayout>
 </LinearLayout>

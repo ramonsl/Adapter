@@ -42,5 +42,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
             }
         });
+
+        TextView btnAdd = findViewById(R.id.btnAdicionar);
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(MainActivity.this,CadastroActivity.class);
+                    startActivity(it);
+            }
+        });
     }
 }
