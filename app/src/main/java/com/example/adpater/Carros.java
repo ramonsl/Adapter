@@ -17,7 +17,7 @@ public class Carros {
         this.ano = ano;
         this.marca = marca;
         this._id=id;
-        ;
+
     }
     public String getNome() {
         return nome;
@@ -31,7 +31,9 @@ public class Carros {
         return marca;
     }
 
-
+    public int getId(){
+        return _id;
+    }
     @Override
     public String toString() {
         return "Carros{" +
